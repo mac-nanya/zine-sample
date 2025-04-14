@@ -3,8 +3,8 @@ description: zine用の記事アイデアを記録・共有します
 title: "[ネタ] タイトルをここに入力"
 labels: ["idea"]
 body:
-  - type: textarea
-    id: summary
+  - type:textarea
+    id:summary
     attributes:
       label: アイデアの概要
       description: どんなテーマで書きたいか、ざっくり書いてください
@@ -12,8 +12,8 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: structure
+  - type:textarea
+    id:structure
     attributes:
       label: 想定している構成・アウトライン
       description: 見出し案や書きたい内容を箇条書きなどで整理しましょう（任意）
@@ -25,7 +25,7 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type:input
     id: author
     attributes:
       label: 執筆者
@@ -34,7 +34,7 @@ body:
     validations:
       required: false
 
-  - type: dropdown
+  - type:dropdown
     id: status
     attributes:
       label: 現在のステータス
