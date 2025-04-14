@@ -1,12 +1,3 @@
----
-name: issue_sample
-about: Describe this issue template's purpose here.
-title: "[issue]"
-labels: ''
-assignees: mac-nanya
-
----
-
 name: 原稿アイデア
 description: zine用の記事アイデアを記録・共有します
 title: "[ネタ] タイトルをここに入力"
@@ -55,3 +46,4 @@ body:
       default: 0
     validations:
       required: true
+
