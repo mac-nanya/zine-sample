@@ -8,7 +8,7 @@ body:
     attributes:
       label: アイデアの概要
       description: どんなテーマで書きたいか、ざっくり書いてください
-      placeholder: 例）インディーズ出版をしたきっかけと、印刷所選びのポイントを紹介したい。
+      placeholder: 例 インディーズ出版をしたきっかけと、印刷所選びのポイントを紹介したい。
     validations:
       required: true
 
