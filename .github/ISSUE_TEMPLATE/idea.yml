@@ -1,6 +1,6 @@
 name: "原稿アイデア"
 description: "zine用の記事アイデアを記録・共有します"
-title: "[ネタ] タイトルをここに入力"
+title: "[原稿案] タイトルをここに入力"
 labels:
   - idea
 body:
@@ -9,7 +9,7 @@ body:
     attributes:
       label: "アイデアの概要"
       description: "どんなテーマで書きたいか、ざっくり書いてください"
-      placeholder: "例）インディーズ出版をしたきっかけと、印刷所選びのポイントを紹介したい。"
+      placeholder: "例）zineの出版をしたきっかけと、印刷所選びのポイントを紹介したい。"
     validations:
       required: true
 
@@ -21,7 +21,7 @@ body:
       placeholder: |
         - はじめに：なぜZINEを作ろうと思ったか
         - 印刷所の比較と決定理由
-        - 実際に入稿してみての感想
+        - 実際に入稿してみた感想
     validations:
       required: false
 
