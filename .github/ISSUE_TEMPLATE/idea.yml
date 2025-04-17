@@ -39,7 +39,7 @@ body:
     attributes:
       label: "現在のステータス"
       options:
-        - アイデア段階
+        - アイデア
         - 執筆中
         - 編集中
         - 完成済み
